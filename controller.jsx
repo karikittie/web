@@ -3,6 +3,7 @@
  */
 
 import React from 'react'
+import ReactDOM from 'react-dom'
 import {Button} from 'semantic-ui-react'
 
 const ButtonExampleButton = () => (
@@ -10,5 +11,8 @@ const ButtonExampleButton = () => (
         Click Here
     </Button>
 );
+
+
+ReactDOM.render(<ButtonExampleButton></ButtonExampleButton>, document.getElementById('react'));
 
 export default ButtonExampleButton
